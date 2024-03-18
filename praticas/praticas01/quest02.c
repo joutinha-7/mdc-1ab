@@ -1,19 +1,25 @@
-/*
+ /*
 2. Faça um programa em C que calcule a área de um triângulo ( a = base x altura / 2). Considere base e altura números inteiros maior que 0.
 */
 
-#include <stdio.h>
+  #include <stdio.h>
 
-int main() {
-float base;
-float altura;
+  int main() {
+  float base;
+  float altura;
 
-base = 2.0f; //2.0f isso float, 2.0 isso double
-altura = 3.0f;
+  base = 2.0f; //2.0f isso float, 2.0 isso double
+  altura = 3.0f;
 
-float area = base * altura / 2;
+  printf("Entre com o valor da base: ");
+  int deu_certo = scanf("%f" , &base);
 
-printf("A area do triangulo é %f\n", area);
+  printf("Entre com o valor da altura: ");
+  deu_certo = scanf("%f", &altura);
+  
+  float area = base * altura / 2;
 
-return 0;
-}
+  printf("A area do triangulo é %f\n", area);
+
+  return 0;
+  }
