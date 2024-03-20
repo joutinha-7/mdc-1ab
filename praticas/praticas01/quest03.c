@@ -6,17 +6,17 @@
 int main() {
 
   int raio;
-  float perimetro;
-
-  float PI = 3.1416f;
+  float PI = 3.1416;
 
   printf("entre com o valor do raio: ");
   int deu_certo = scanf("%i", &raio);
 
-  printf("entre com o valor do perimetro:");
-  deu_certo = scanf("%f", &perimetro);
-  perimetro = 2 * PI * raio;
-  
-  printf("o perimetro da pizza é %f\n", perimetro);
-  
-  return 0; }
+  printf("entre com o valor de PI: ");
+  deu_certo = scanf("%f", &PI);
+
+  float perimetro = (PI = 2 * PI * PI * raio);
+
+  printf("o perimetro é %f\n", perimetro);
+
+  return 0;
+}
