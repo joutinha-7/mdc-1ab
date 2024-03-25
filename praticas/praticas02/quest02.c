@@ -4,15 +4,15 @@
 
 int main(){
 
-  float num1, num2;
+  int num1, num2;
   float quociente;
   float resto;
 
   printf("digite o primeiro numero:");
-  int deu_certo = scanf("%f", &num1);
+  int deu_certo = scanf("%i", &num1);
 
   printf("digite o numero dois");
-  deu_certo = scanf("%f" , &num2);
+  deu_certo = scanf("%i" , &num2);
 
   printf("me de o quociente:");
   deu_certo = scanf("%f", &quociente);
