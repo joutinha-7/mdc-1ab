@@ -14,15 +14,9 @@ int main(){
   printf("digite o numero dois");
   deu_certo = scanf("%i" , &num2);
 
-  printf("me de o quociente:");
-  deu_certo = scanf("%f", &quociente);
-
-  printf("me de o resto:");
-  deu_certo = scanf("%f", &resto);
-
   quociente = num1 / num2;
 
-  resto = num1 / num2;
+  resto = num1 % num2;
 
   printf("o quociente é %f\n" , quociente);
   printf("o resto é %f\n", resto);

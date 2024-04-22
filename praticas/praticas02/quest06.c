@@ -11,16 +11,17 @@ int main() {
   float valor_depreciado;
 
   printf("entre com o valor de compra do veiculo: ");
-  int deu_certo = scanf(" %f\n", &valor_compra);
+  int deu_certo = scanf(" %f", &valor_compra);
 
   printf("entre com o ano de frabricação do veículo: ");
-  deu_certo = scanf(" %f\n", &ano_fabricacao);
+  deu_certo = scanf(" %f", &ano_fabricacao);
 
   printf("entre com o ano de depreciação do veículo: ");
-  deu_certo = scanf(" %f\n", &ano_depreciacao);
+  deu_certo = scanf(" %f", &ano_depreciacao);
 
-  int resultado = (ano_depreciacao - ano_fabricacao) * 0.01 * valor_compra;
-  printf(" me de o valor depreciado do veículo %f\n", resultado);
+  valor_depreciado = (ano_depreciacao - ano_fabricacao) * 0.01 * valor_compra;
+  
+  printf("o valor depreciado do veículo %f\n", valor_depreciado);
   
   
   return 0;

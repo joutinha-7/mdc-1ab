@@ -8,18 +8,18 @@ int main(){
   float num1, num2, num3;
   float media;
 
-  printf("digite o primeiro numero:");
+  printf("entre com o primeiro numero:");
   int deu_certo = scanf("%f", &num1);
 
-  printf("digite o numero dois:");
+  printf("entre com o segundo numero:");
   deu_certo = scanf("%f", &num2);
 
-  printf("digite o numero tres:");
+  printf("entre com o terceiro numero:");
   deu_certo = scanf("%f", &num3);
 
   media = (num1 + num2 + num3) / 3;
 
-  printf(" a media aritmetica dos nuemros é: %f\n" , media);
+  printf(" a media aritmetica dos numeros é: %f\n" , media);
   
 return 0;
 }
